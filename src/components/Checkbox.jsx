@@ -1,11 +1,11 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 
 const Checkbox = (props) => {
   const {
     onChange,
     data: { id, description, done },
   } = props;
-  
+
 /*
   const [isChecked, setIsChecked] = useState(done);
 

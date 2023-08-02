@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.scss';
-import AudioPlayer from "react-audio-player";
 import Container from './components/Container';
 
 function App() {
