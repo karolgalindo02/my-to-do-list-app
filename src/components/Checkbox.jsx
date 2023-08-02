@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import AudioPlayer from "react-audio-player";
 
 const Checkbox = (props) => {
   const {
