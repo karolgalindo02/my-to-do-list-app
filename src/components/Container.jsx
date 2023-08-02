@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import AudioPlayer from "react-audio-player";
 import TaskList from "./TaskList";
 import FormTodo from "./FormTodo";
-import backgroundSound from "public/8bit-theme.mp3";
 
 const Container = () => {
 	const [list, setList] = useState([]); // (B-1)
