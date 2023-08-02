@@ -5,7 +5,8 @@ const Checkbox = (props) => {
     onChange,
     data: { id, description, done },
   } = props;
-
+  
+/*
   const [isChecked, setIsChecked] = useState(done);
 
   // Function to handle the checkbox change event
@@ -19,7 +20,7 @@ const Checkbox = (props) => {
     const audio = new Audio("public/done.mp3");
     audio.play();
   };
-
+*/
   return (
     <Fragment>
       {/* Just ADD !!!! */}

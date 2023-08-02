@@ -18,7 +18,7 @@ const TaskList = (props) => {
     const updateList = list.filter((item) => !item.done);
     setList(updateList);
   };
-
+/*
   const [isSoundPlaying, setIsSoundPlaying] = useState(false);
 
   const playSound = () => {
@@ -34,7 +34,7 @@ const TaskList = (props) => {
     onClickRemoveItem();
     playSound();
   };
-
+*/
   const chk = list.map((item) => (
     <Checkbox key={item.id} data={item} onChange={onChangeStatus} />
   ));
